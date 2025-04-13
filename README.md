@@ -33,16 +33,35 @@ This project allows users to manage a collection of **entries** (flashcards), ea
 ## Running the Application
 
 To run the application locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem
+2. Compile and run the Java application using Maven:
+  - Install Maven if you haven't already. Follow the instructions here.
+  - To build the project:
+    ```
+    mvn clean install
+    ```
+    
+  - To run the application:
+    ```
+    mvn exec:java
+    ```
+
+
+## Running the Application
+
+To run the application locally:
 
 1. Clone the repository:
-   - Run the command:
-     ```git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem```
+     ```bash
+   git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem```
 2. Run with your preferred IDE or with the command:
-   - Run the command:
-     ```./gradlew bootRun```
+     ```bash
+   ./gradlew bootRun```
 3. Access the H2 console (if enabled):  
-   - Run the command:
-     ```http://localhost:8080/my-h2-console```
+     ```bash
+   http://localhost:8080/my-h2-console
 
 > Default H2 credentials:  
 > - **Username**: `libSystem`  
