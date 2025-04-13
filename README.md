@@ -35,11 +35,14 @@ This project allows users to manage a collection of **entries** (flashcards), ea
 To run the application locally:
 
 1. Clone the repository:
-   ```git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem```
+   - Run the command:
+     ```git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem```
 2. Run with your preferred IDE or with the command:
-   ```./gradlew bootRun```
+   - Run the command:
+     ```./gradlew bootRun```
 3. Access the H2 console (if enabled):  
-   ```http://localhost:8080/my-h2-console```
+   - Run the command:
+     ```http://localhost:8080/my-h2-console```
 
 > Default H2 credentials:  
 > - **Username**: `libSystem`  
@@ -52,4 +55,4 @@ In `application.yml`, you can activate profiles to change how words are displaye
 ```yaml
 spring:
   profiles:
-    active: upperCase # Change to lowerCase or original```
+    active: upperCase # Change to lowerCase or original
