@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: Flash Card System
+  banner:
+    location: logo-app
+    charset: UTF-8
+  profiles:
+    active: upperCase
+  h2:
+    console:
+      path: /flash-console
+  datasource:
+    url: jdbc:h2:mem:flash
+    username: flash
+    password: 1234
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
