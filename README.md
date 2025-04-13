@@ -34,17 +34,17 @@ This project allows users to manage a collection of **entries** (flashcards), ea
 
 To run the application locally:
 
-1. Clone the repository:
+1. **Clone the repository**:
      ```bash
    git clone https://github.com/your-username/LibraryManagementSystem.git && cd LibraryManagementSystem```
-2. Run with your preferred IDE or with the command:
+2. **Run with your preferred IDE or with the command**:
      ```bash
    ./gradlew bootRun```
-3. Access the H2 console (if enabled):  
+3. **Access the H2 console (if enabled)**:  
      ```bash
    http://localhost:8080/my-h2-console
 
-> Default H2 credentials:  
+> **Default H2 credentials**:  
 > - **Username**: `libSystem`  
 > - **Password**: `1234`  
 
